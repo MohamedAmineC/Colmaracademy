@@ -343,8 +343,21 @@ footer nav li a{
     .info-content:last-child{
         padding-bottom: 0 ;
     }
+    #thesis-section{
+        border: 0;
+    }
+    #thesis-section h2{
+        margin:0;
+        margin-bottom: .8rem;
+    }
+    .main-thesis{
+        width:100%;
+        margin: 0;
+        margin-bottom: 1.2rem;
+    }
     footer{
-        text-align: center;
+        background-color: white;
+        padding: .8rem;
     }
     #copyrights{
         width: 100%;
