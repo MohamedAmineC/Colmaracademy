@@ -287,7 +287,14 @@ footer nav li a{
     }
     .banner-content{
         padding:1.6rem .8rem;
-        text-align: center;
+    }
+    .banner-content h2{
+        margin: 0;
+        margin-bottom: 1.6rem;
+    }
+    .banner-content button{
+        margin-top: 1.2rem;
+        background-color: rgb(126, 126, 126);
     }
     .other-articles{
         width:100%;
