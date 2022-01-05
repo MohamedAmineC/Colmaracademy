@@ -2,7 +2,12 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-
+body{
+    margin:0;
+}
+.image-container img{
+    max-width: 100%;
+}
  /* Header section */
 
 
@@ -11,6 +16,7 @@ header{
     height: 3.4rem;
     padding: 0 1.2rem;
     justify-content: space-between;
+    align-items: center;
 }
 .logo-container{
     display: flex;
@@ -46,4 +52,46 @@ nav{
     color: black;
     text-decoration: none;
 }
+@media screen and (max-width: 700){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
 
+/* Banner section */
+main{
+    border: 2px solid darkgrey;
+    border-top: 0;
+}
+.gray-background{
+    background-color: rgb(221, 221, 221);
+    padding:1.6rem 1.2rem;
+}
+#banner-container{
+    display: flex;
+}
+.image-container{
+    width:60%;
+    margin-right: 1.2rem;
+}
+.banner-content{
+   margin:auto 0;
+   font-family: 'Open Sans', sans-serif;
+   color: rgb(43, 43, 43);
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+}
+.banner-content h2{
+    font-size: 2rem;
+}
+.banner-content button{
+    width: 100%;
+    padding: .4rem;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-size: 1.2rem;
+    border: 0;
+}
