@@ -98,18 +98,18 @@ main{
     display: flex;
 }
 
-#main-article{
+.main-article{
     width: 60%;
     margin: 1.6rem 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
-#main-article h2{
+.main-article h2{
     font-size: 2rem;
     color: rgb(109, 109, 109);
     margin-bottom: 1.2rem;
     margin-top: 1.6rem;
 }
-#other-articles{
+.other-articles{
     width:40%;
     padding: 1.6rem .8rem;
     border-left: 1px solid rgb(216, 216, 216);
@@ -198,4 +198,42 @@ main{
 }
 .course-content p:first-child{
     margin: .4rem 0;
+}
+
+/* Thesis section */
+#thesis-section{
+    background-color: rgb(243, 242, 242);
+    padding-top: 1.6rem;
+    border-bottom:1px solid rgb(216, 216, 216);;
+}
+#thesis-section h2{
+    font-family: 'Open Sans', sans-serif;
+   color: rgb(109, 109, 109);
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 1.6rem;
+}
+#thesis-container{
+    display: flex;
+}
+
+video{
+    max-width: 100%;
+}
+
+.main-thesis{
+    width: 60%;
+    margin: 1.6rem 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-thesis h2{
+    font-size: 2rem;
+    color: rgb(109, 109, 109);
+    margin-bottom: 1.2rem;
+    margin-top: 1.6rem;
+}
+.other-thesis{
+    width:40%;
+    padding: 1.6rem .8rem;
+    align-items: flex-start;
 }
