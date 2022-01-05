@@ -264,12 +264,17 @@ footer nav li a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 760px){
     .mobile{
         display: block;
     }
     .desktop{
         display: none;
+    }
+    .menu-logo{
+        width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     }
     #banner-section{
         padding:0px;
