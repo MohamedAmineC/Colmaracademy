@@ -37,9 +37,6 @@ p .logo{
 .mobile {
     display: none;
 }
-nav{
-    
-}
 .desktop ul{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +77,7 @@ main{
 .banner-content{
    margin:auto 0;
    font-family: 'Open Sans', sans-serif;
-   color: rgb(43, 43, 43);
+   color: rgb(109, 109, 109);
     letter-spacing: .1rem;
     font-size: 1.5rem;
 }
@@ -108,14 +105,14 @@ main{
 }
 #main-article h2{
     font-size: 2rem;
-    color: rgb(43, 43, 43);
+    color: rgb(109, 109, 109);
     margin-bottom: 1.2rem;
     margin-top: 1.6rem;
 }
 #other-articles{
     width:40%;
     padding: 1.6rem .8rem;
-    border-left: 1px solid grey;
+    border-left: 1px solid rgb(216, 216, 216);
     align-items: flex-start;
 }
 .info{
@@ -160,6 +157,45 @@ main{
     line-height: 1.5;
 }
 .info-content a{
-    color: rgb(39, 100, 192);
+    color: rgb(14, 87, 146);
     text-decoration: none;
+}
+
+
+/* Courses section */ 
+#courses-section h2{
+    font-family: 'Open Sans', sans-serif;
+   color: rgb(109, 109, 109);
+   font-size: 2rem;
+   text-align: center;
+   margin-top:1.6rem;
+   margin-bottom: 0;
+}
+#courses-container{
+    display: grid;
+    margin: 3.6rem 1.6rem;
+    grid-gap: 1.6rem ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.course{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.course img{
+    min-width: 100%;
+    height: auto;
+}
+.course-content{
+    margin: .8rem;
+    margin-bottom: 1.2rem;
+    color: rgb(109, 109, 109);
+}
+.course-content h4{
+    margin-top: 0;
+    margin-bottom: .8rem;
+    font-size: 1.5rem;
+}
+.course-content p:first-child{
+    margin: .4rem 0;
 }
