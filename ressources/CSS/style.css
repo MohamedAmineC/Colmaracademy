@@ -8,6 +8,8 @@ body{
 img{
     max-width: 100%;
 }
+
+
  /* Header section */
 
 
@@ -37,26 +39,19 @@ p .logo{
 .mobile {
     display: none;
 }
-.desktop ul{
+.menu ul{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.desktop li {
+.menu li {
     display: inline-block;
     margin-left: .8rem;
 }
-.desktop li a{
+.menu li a{
     color: black;
     text-decoration: none;
 }
-@media screen and (max-width: 700px){
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: block;
-    }
-}
+
 
 /* Banner section */
 main{
@@ -64,6 +59,10 @@ main{
     border-top: 0;
 }
 .gray-background{
+    background-color: rgb(221, 221, 221);
+    padding:1.6rem 1.2rem;
+}
+#banner-section{
     background-color: rgb(221, 221, 221);
     padding:1.6rem 1.2rem;
 }
@@ -109,23 +108,24 @@ main{
     margin-bottom: 1.2rem;
     margin-top: 1.6rem;
 }
+
 .other-articles{
     width:40%;
-    padding: 1.6rem .8rem;
     border-left: 1px solid rgb(216, 216, 216);
     align-items: flex-start;
 }
 .info{
     display: flex;
-    padding: .8rem 0;
+    padding: .8rem;
+}
+.info:first-child{
+    padding-top: 1.6rem;
 }
 .info:hover{
     background-color: rgb(165, 164, 164);
     cursor:pointer;
 }
-.info:first-child{
-    padding-top: 0;
-}
+
 .info-image{
     width: 35%;
     height: auto;
@@ -160,6 +160,7 @@ main{
     color: rgb(14, 87, 146);
     text-decoration: none;
 }
+
 
 
 /* Courses section */ 
@@ -261,4 +262,35 @@ footer nav li {
 footer nav li a{
     color: grey;
     text-decoration: none;
+}
+
+@media screen and (max-width: 700px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    #banner-section{
+        padding:0px;
+    }
+    #banner-container{
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+    }
+    .banner-content{
+        padding:1.6rem .8rem;
+        text-align: center;
+    }
+    .other-articles{
+        width:100%;
+    }
+    footer{
+        text-align: center;
+    }
+    #copyrights{
+        width: 100%;
+    }
 }
