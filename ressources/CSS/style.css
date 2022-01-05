@@ -5,7 +5,7 @@ html{
 body{
     margin:0;
 }
-.image-container img{
+img{
     max-width: 100%;
 }
  /* Header section */
@@ -52,7 +52,7 @@ nav{
     color: black;
     text-decoration: none;
 }
-@media screen and (max-width: 700){
+@media screen and (max-width: 700px){
     .desktop{
         display: none;
     }
@@ -94,4 +94,72 @@ main{
     color: white;
     font-size: 1.2rem;
     border: 0;
+}
+
+/* Articles section */
+#aritcles-container{
+    display: flex;
+}
+
+#main-article{
+    width: 60%;
+    margin: 1.6rem 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+#main-article h2{
+    font-size: 2rem;
+    color: rgb(43, 43, 43);
+    margin-bottom: 1.2rem;
+    margin-top: 1.6rem;
+}
+#other-articles{
+    width:40%;
+    padding: 1.6rem .8rem;
+    border-left: 1px solid grey;
+    align-items: flex-start;
+}
+.info{
+    display: flex;
+    padding: .8rem 0;
+}
+.info:hover{
+    background-color: rgb(165, 164, 164);
+    cursor:pointer;
+}
+.info:first-child{
+    padding-top: 0;
+}
+.info-image{
+    width: 35%;
+    height: auto;
+}
+.info-content{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    padding: 1.2rem;
+    align-items: baseline;
+    align-content: stretch;
+    justify-content: space-evenly;
+    font-family: 'Open sans', sans-serif;
+}
+.info-content h3,p,a{
+    margin-top: 0;
+    margin-bottom: .4rem;
+}
+@media screen and (max-width: 1350px){
+    .info-content{
+        padding: 0 1.2rem;
+    }
+}
+.info-content h3{
+
+    color: rgb(43, 43, 43);
+}
+.info-content p{
+    line-height: 1.5;
+}
+.info-content a{
+    color: rgb(39, 100, 192);
+    text-decoration: none;
 }
