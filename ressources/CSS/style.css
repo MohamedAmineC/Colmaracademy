@@ -237,3 +237,28 @@ video{
     padding: 1.6rem .8rem;
     align-items: flex-start;
 }
+
+/* Footer section */
+footer{
+    background-color: rgb(243, 242, 242);
+    display: flex; 
+    color: grey;
+    font-size: .6rem;
+    padding:.8rem 1.2rem;
+    justify-content: space-between;
+}
+footer nav{
+    display: flex;
+}
+footer nav ul{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer nav li {
+    display: inline-block;
+    margin-left: .8rem;
+}
+footer nav li a{
+    color: grey;
+    text-decoration: none;
+}
