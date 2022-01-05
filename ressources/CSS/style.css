@@ -298,6 +298,23 @@ footer nav li a{
     }
     .other-articles{
         width:100%;
+        padding: .8rem .8rem 1.6rem .8rem
+    }
+    .info{
+        flex-direction: column;
+        padding: 0;
+    }
+    .info-image{
+        width:100%;
+    }
+    .info:first-child{
+        padding: 0;
+    }
+    .info-content{
+        padding: .8rem;
+    }
+    .info-content:last-child{
+        padding-bottom: 0 ;
     }
     footer{
         text-align: center;
